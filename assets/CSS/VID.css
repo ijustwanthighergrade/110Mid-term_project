@@ -1,0 +1,68 @@
+.tsize{
+  width: 910px;
+  height: 525px;
+}
+.featurefilm {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 208, 208);
+    position: absolute;
+    border-radius: 100%;  
+    background-image: url(" ../../images/wood.jpg");
+    box-shadow: 10px 5px 10px black;
+    right: 15px;
+    top: 75px;
+
+  }
+  div.featurefilm:hover{
+    background-image: url( ../../images/stone.jpg);
+  }
+  div.tidbit:hover{
+    background-image: url( ../../images/stone.jpg);
+  }
+  .buttomarea{
+    width: 150px;
+    height: 525px;
+    float: right;
+  }
+
+  .tidbit {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 242, 208);
+    position: absolute;
+    right: 15px;
+    box-shadow: 10px 5px 10px black;
+    border-radius: 100%;  
+    margin: 0px;
+    top: 335px;
+    background-image: url(" ../../images/wood.jpg");
+
+  }
+  iframe{
+    border: black 3px;
+  }
+  .cirtext{
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    width: 150px;
+    height: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px black;
+    background-image: url(" ../../images/wood.jpg");
+    color: rgb(0, 0, 0);
+
+  }
+  .featurefilm:hover .cirtext{
+    background-image: url( ../../images/stone.jpg);
+    color: rgb(255, 255, 255);
+
+  }
+  .tidbit:hover .cirtext{
+    background-image: url( ../../images/stone.jpg);
+    color: rgb(255, 255, 255);
+
+  }

@@ -1,0 +1,194 @@
+@media screen and (min-width: 1920px) {
+
+[class|="bg"]{
+    margin: 0px auto;
+    padding: 0px auto;
+    filter: brightness(0.6);
+    height: 100%;
+}
+[class|="bg"] div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity=0);
+
+}
+[class|="bg"] div:hover{
+    -webkit-animation: round 20s linear infinite;
+    animation: round 20s linear infinite;
+    cursor: url(" ../../images/pla4.cur"),pointer;
+}
+[ class *= "lib1" ]{
+    position: absolute;
+    font-family: 'SoukouMincho', 微軟正黑體;
+    font-weight: bolder;
+    font-size: 95px;
+    color: rgb(255, 255, 255);
+    z-index: 555;
+    float: left;
+    text-shadow: rgb(85, 85, 85) 5px 5px 2px;
+    top: 530px;
+    left: 110px;
+    
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+[ class *= "lib1" ]:hover{
+    font-size: 105px;
+    color: mediumturquoise;
+    -webkit-animation: tada 1s .2s ease both;
+    -moz-animation: tada 1s .2s ease both;
+    font-family: 'SoukouMincho', 微軟正黑體;
+
+}
+
+[class *= "lib2"]{
+    background-color: rgb(242, 242, 255);
+    top: 300px;
+    width: 900px;
+    left: 900px;
+    right:0px;
+    height: 600px;
+    position: absolute;
+    z-index: 555;
+    float: right;
+    filter: opacity(75%);
+    text-indent: 2cm;
+    border-radius: 50px;
+    box-shadow: black 10px 10px 10px;
+    filter: opacity(75%);
+    font-family: 'Taipei Sans TC Beta Light';
+
+}
+
+div.lib1_show{
+    position: absolute;
+    top: 1380px;
+
+}
+div.lib2_show{
+    position: absolute;
+    top: 1180px;
+}
+div.lib1_com{
+    position: absolute;
+    top: 2230px;
+
+}
+div.lib2_com{
+    position: absolute;
+    top: 2020px;
+}
+div.lib1_re{
+    position: absolute;
+    top: 3050px;
+
+}
+div.lib2_re{
+    position: absolute;
+    top: 2880px;
+}
+div.lib1_se{
+    position: absolute;
+    top: 3900px;
+
+}
+div.lib2_se{
+    position: absolute;
+    top: 3700px;
+}
+div.lib1_st{
+    position: absolute;
+    top: 4750px;
+
+}
+div.lib2_st{
+    position: absolute;
+    top: 4550px;
+}
+.libbg{
+  height: 85%;
+}
+article{
+    font-size: 24px;
+    filter: none;
+    color: black;
+    text-indent: 42pt;
+    letter-spacing: 3pt;
+    line-height: 1.5cm;
+    font-weight: bolder;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    padding: 25pt;
+}
+.max2{
+
+    z-index: -1;
+    width: 1903px;
+    height: 850px;
+}/*背景圖片*/
+
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+@-webkit-keyframes round {
+    5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+    }
+    25% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+    }
+    30% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+    }
+    }
+@keyframes round {
+    5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+    }
+    25% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+    }
+    30% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+    }
+    
+}
+
+
+
+
+.bg div:nth-child(3) {
+-webkit-animation-delay: 0s;
+animation-delay: 0s;
+}
+.bg div:nth-child(2) {
+-webkit-animation-delay: 3s;
+animation-delay: 3s;
+}
+
+.bg div:nth-child(1) {
+-webkit-animation-delay: 6s;
+animation-delay: 6s;
+}

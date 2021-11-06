@@ -1,0 +1,175 @@
+body{
+    background-color:rgb(255, 250, 240);
+    background-image: url(" ../../images/wood3.jpg");
+}
+.maxinfor{
+    margin: 0px auto;
+    width: 1500px;
+}/*最大內容*/
+.select_menu{
+    width: 1500px;
+    height: 80px;
+    margin: 40px auto;
+    display: inline-flex;
+    background-color: thistle;
+    background-image: url(" ../../images/stone.jpg");
+    font-size: 40px;
+    color: white;
+    box-shadow: rgb(85, 85, 85) 5px 5px 2px;
+    text-shadow: rgb(29, 29, 29) 0px 0px 10px;
+}/*最大選單*/
+.select a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'FangSong';
+    font-weight: bolder;
+}/*最大選單的字*/
+.select{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    text-align: center;
+}/*最大選單的字的範圍*/
+.select a:hover{
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+}/*所有的副標*/
+/*newopen*/
+.newopen{
+    width: 100%;
+    height: 600px;
+}
+.newnew{
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+.openopen{
+    width: 450px;
+    height: 200px;
+    float: left;
+    font-size: 20px;
+    padding-left:200px; ;
+}
+
+.contactcontact{
+    width: 450px;
+    height: 100px;
+    float: left;
+    font-size: 20px;
+    margin-top: 150px;
+    padding-left:200px; ;
+
+}
+.contactcontact li{
+    list-style: none;
+}
+.openopen li{
+    list-style: none;
+}
+.marqee1 {
+    height: 400px;
+    margin: 0px ;
+    overflow: hidden; 
+    position: relative;
+    background: rgba(148, 194, 190, 0.521);
+    width: 800px;
+    padding: 0px;
+    
+}
+   
+.marqee1 > ul {
+    display: flex;
+    list-style-type: none;
+    animation: marqee 15s linear infinite;
+    position: absolute;
+}
+.maxmar1{
+    width: 800px;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    border: rgb(61, 19, 0) 10px solid;
+    font-size: 20px;
+    height: 400px;
+    background-image: url(" ../../images/stone.jpg");
+
+}
+
+.marqee1 > ul > li {
+    white-space: nowrap;
+    margin-right: 2em;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+/*transmap*/
+.transmap{
+    width: 100%;
+    height:700px ;
+}
+.marqee {
+    height: 500PX;
+    margin: 0px ;
+    overflow: hidden; 
+    position: relative;
+    /*background-image: url(" ../../images/background_person.jfif");*/
+    width: 800px;
+    padding: 0px;
+    background-color: rgba(255, 229, 238, 0.582);
+}  
+.marqee > ul {
+    display: flex;
+    list-style-type: none;
+    animation: marqee 15s linear infinite;
+    position: absolute;
+}
+.maxmar{
+    width: 800px;
+    padding: 10px;
+    margin: 15px;
+    float: right;
+    border: rgb(61, 19, 0) 10px solid;
+    font-size: 20px;
+    background-image: url(" ../../images/stone.jpg");
+
+}
+.marqee > ul > li {
+    white-space: nowrap;
+    margin-right: 2em;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+.marqee ul{
+    padding: 15px;
+    margin: 0px;
+    word-break: break-all;
+}
+
+.where{
+    float: left;
+    margin: 15px auto;
+    padding-top: 30px;  
+}/*map*/
+
+/*跑馬燈特效*/    
+@keyframes marqee {
+0% {
+    top: 100%;
+    transform: translateY(0%);
+}
+
+100% {
+    top: 0;
+    transform: translateY(-100%);
+}
+}
+a{
+    text-decoration: none;
+}
+
+
+   

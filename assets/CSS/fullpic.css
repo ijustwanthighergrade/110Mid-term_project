@@ -1,0 +1,21 @@
+.bg img{
+    width: 1903px;
+    min-height: 500px;
+    min-width: 1900px;
+    
+}
+@media screen and (max-width: 1000px) {
+    img.bg {
+        left: 50%;
+        margin-top: -500px;
+    }
+}
+.bg{
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0px;
+    padding: 0px;
+
+}

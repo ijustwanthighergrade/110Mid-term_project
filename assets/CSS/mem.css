@@ -1,0 +1,369 @@
+body{
+    background-image: url(" ../../images/wood3.jpg");
+    font-family: 微軟正黑體;
+    color: rgb(31, 27, 27);
+    width: 100%;
+}
+header{
+    font-family: 'FangSong', 微軟正黑體;
+    display: block ;
+    list-style: none;
+    position: relative;
+}
+.pagemem{
+    width: 1500px;
+    margin: 0px auto;
+    position: relative;
+    height: auto;
+
+}
+.centered-wrap{
+    position: relative;
+    margin: 0px auto;
+    transform:translate(-50%,-50%);
+}
+.card-wrap{
+    width: 1400px;
+    height: 700px;
+    position:relative;
+    padding: 0px;
+    margin: 60px auto;
+
+}
+.personframefront{
+    background-image: url(" ../../images/wood.jpg");
+    border-radius:50px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    /*hide backface*/
+    backface-visibility:hidden;
+    padding: 0px;
+
+}
+.personframe{
+    margin: 0px 0px;
+    position:absolute;
+    background-color: rgb(51, 25, 0);
+    padding: 50px ; 
+    border-color: blanchedalmond;
+    background-image: url(" ../../images/stone.jpg");
+    width: 1300px;
+    height: 600px;
+    border-radius: 50px;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+}/*人 max框*/
+
+.personframereverse/*back*/{
+    position:absolute;
+    width: 1400px;
+    height: 700px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border-radius: 50px;
+    /*preserve the back when fliping*/
+    transform-style:preserve-3d;
+    transition:0.5s all ease-in;
+    box-shadow:0px 0px 10px rgba(10,10,0.8);
+}
+  
+.personframereverse:hover{
+    transform:rotateY(180deg);
+
+    -webkit-transition: 1s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+h1{
+    font-size: 100px;
+    margin: 100px ;
+   /*box-shadow: gainsboro -10px 10px 2px;*/
+    position: relative;    
+
+    color: rgb(193, 253, 255);
+    text-align: left;
+    background-color: rgb(138, 116, 148);
+    width: 1501px;
+    padding: 50px;
+    padding-top: 0px;
+    text-shadow: rgb(39, 39, 39) 10px 10px 1px;
+    font-family: 'Castellar',新細明體 ;
+    /*background-image: url(" ../../images/Cute-Retro-Television-Items-Set.jpg") ;*/
+    box-shadow: 10px 5px 10px black;
+    background-image: url(" ../../images/stone.jpg");
+
+    -webkit-animation: tada 1s .2s ease both;
+    -moz-animation: tada 1s .2s ease both;
+
+}
+h1:hover{
+    color: rgb(255, 238, 141);
+    -webkit-transition: color 0.6s ease-out;
+    transition: color 0.6s ease-out;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    padding: 0px auto;
+    margin: 0px auto;
+    color: lightseagreen;
+    font-weight: 1000px;
+    font-family: 'FangSong', 微軟正黑體;
+    
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}/*人名*/
+h2:hover{
+    
+    color: rgb(66, 97, 79);
+    text-shadow: rgb(172, 172, 172) 3px 3px 1px;
+    
+    -webkit-transition: color 0.6s ease-out;
+    transition: color 0.6s ease-out;
+  
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+h2.h2title{
+    padding: 0px auto;
+    margin: 0px auto;
+    color: lightseagreen;
+    font-weight: 1000px;
+    font-family: 'FangSong', 微軟正黑體;
+    text-align: left; 
+    margin-left: 50px;
+    color: black; 
+    font-size: 80px;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+h2.h2title:hover{
+
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+    color: rgb(66, 97, 79);
+    text-shadow: rgb(172, 172, 172) 3px 3px 1px;
+}
+article ul{
+    list-style: none;
+    padding: 0px;
+    font-family: 'FangSong', 微軟正黑體;
+}
+
+div>.personimage1 img {
+    position: relative;
+    width: 600px;
+    height: 60%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: gray 10px 10px 10px;
+
+}
+.ig{
+    float: right;
+}
+.fb{
+    float: left;
+}
+div>.personimage2 img {
+
+    position: relative;
+    width: 600px;
+    height: 66%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    filter: brightness(1.1);
+    box-shadow: gray 10px 10px 10px;
+
+}
+div>.personimage2 img:hover {
+    transform: rotate(5deg);
+    filter: brightness(1.2);
+    -webkit-animation: tada 1s .2s ease both;
+    -moz-animation: tada 1s .2s ease both;
+}
+div>.personimage1 img:hover { 
+    filter: brightness(1.2);
+    transform: rotate(5deg);
+    -webkit-animation: tada 1s .2s ease both;
+    -moz-animation: tada 1s .2s ease both;
+}
+.photo{
+    float: right;
+}
+.intro1{
+    width: 650px;
+    height: 100%;
+    background-color: ghostwhite;
+    box-shadow: gray 10px 10px 10px;
+    border-radius: 50px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}/*文字框*/
+.intro2{
+    width: 650px;
+    height: 100%;
+    background-color: ghostwhite;
+    box-shadow: gray 10px 10px 10px;
+    border-radius: 50px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}/*文字框*/
+article{
+    position: absolute;
+    margin: 20px;
+    font-family: 新細明體;
+    font-size: 24px;
+    padding: 25px;
+    line-height: 1.5;
+    animation: fadeInAnimation ease 5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+div img.icon {
+    width: 100px ;
+    height: 100px ;
+    margin: 10px auto;
+    padding: 0px auto ;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 30px;
+    float: left;
+    margin-left: 0px;
+}
+div img.icon1 {
+    width: 100px ;
+    height: 100px ;
+    margin: 10px auto;
+    padding: 0px auto ;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 30px;
+    float: right;
+}
+div img.icon:hover{
+    width: 120px ;
+    height: 120px ;
+    transform: none;
+}
+div img.icon1:hover{
+    width: 120px ;
+    height: 120px ;    
+    transform: none;
+
+}
+div.personimage1{
+    width: 600px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+div.personimage2{
+    width: 500px;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+div hr{
+    border: rgb(71, 67, 53) 10px solid ;
+    padding: 0px auto ;
+    margin: 50px auto;
+    width: 1500px;
+    border-width: 3px;
+
+}
+
+
+/*表單*/
+.fo{
+    margin: 20px auto;
+    width: 1200px;
+    height: 500px;
+    font-size: 28px;
+    font-family: 微軟正黑體;
+    vertical-align:bottom ;
+    font-weight: bold;
+    position: relative;
+    padding: 0px auto;
+    margin-bottom: 150px;
+    
+}
+fieldset{
+    border: 5px brown dashed;
+    padding: 25px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    margin: 15px;
+    margin-bottom: 100px;
+    background-image: url(" ../../images/stone.jpg");
+
+}
+.bu1{
+    text-align: right;
+
+    padding: 10px;
+    text-shadow: brown;
+    font-size: 15px;
+    vertical-align: bottom;
+    float: left;
+}
+.bu2{
+    text-align: right;
+
+    padding: 10px;
+    text-shadow: brown;
+    font-size: 15px;
+    vertical-align: bottom;
+    float: right;
+    margin: 0px auto;
+}
+.buttomarea{
+    padding: 10px;
+    width: 200px;
+    margin:0px auto;
+
+}
+td{
+    color: rgb(255, 213, 213);
+    text-shadow: black 3px 3px 5px;
+    letter-spacing: 3pt;
+}
+.text{
+    border-radius: 3px;
+    border-color:rgb(255, 213, 213);
+    border-style:solid;
+    border-width: 3px;
+    vertical-align: bottom;
+    height: 20px;
+}
+legend{
+    font-size: 80px;
+    color: rgba(253, 225, 222, 0.918);
+    text-align: right;
+    text-shadow: black 3px 3px 5px;
+}
+table{
+    margin: 10px;
+
+}
+td{
+    padding: 10px;
+}
