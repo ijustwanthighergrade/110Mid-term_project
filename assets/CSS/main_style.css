@@ -52,7 +52,7 @@ ul.menu ul { /*隱藏次選單*/
 ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     display: block;
   
-    animation: fadeInAnimation ease 1s; 
+    animation: fadein ease 1s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
 }
@@ -87,8 +87,6 @@ div a.frame:hover{
     /*緩慢放大*/
     -webkit-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-    -webkit-transform: skewX(-25deg);
-            transform: skewX(-25deg);
 }
 div.frame:hover{
     background-image: url(" ../../images/wood3.jpg");
@@ -180,8 +178,6 @@ div a.but:hover{
     /*緩慢放大*/
     -webkit-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-    -webkit-transform: skewX(-25deg);
-            transform: skewX(-25deg);
 }
 .but:hover{
     color: brown;
@@ -196,7 +192,7 @@ article{
     padding: 50px;
     /*text-shadow: 10px 10px 1px #c0c0c0;*/
     color: rgb(187, 0, 25);
-    animation: fadeInAnimation ease 3s; 
+    animation: fadein ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
     text-align: center;
@@ -208,12 +204,12 @@ h1{
     padding: 20px;
     padding-bottom: 0px;
     color: rgb(187, 174, 99);
-    animation: fadeInAnimation ease 20s; 
+    animation: fadein ease 20s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
     margin: 0px;
 }
-@keyframes fadeInAnimation { 
+@keyframes fadein { 
     0% { 
         opacity: 0; 
     } 

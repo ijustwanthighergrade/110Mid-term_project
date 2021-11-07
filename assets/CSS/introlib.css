@@ -84,7 +84,7 @@ h1{
 .marqee1 > ul {
     display: flex;
     list-style-type: none;
-    animation: marqee 15s linear infinite;
+    animation: marqee 20s linear infinite;
     position: absolute;
 }
 .maxmar1{
